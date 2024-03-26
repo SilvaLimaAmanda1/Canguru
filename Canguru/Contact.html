@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Contact.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title> Contact | ASL</title>
+</head>
+<body>
+	
+<section>
+	<input type="checkbox" id="check">
+	<header>
+	<div class="logo">
+		<img src="img/Logo-rosa.png">
+	</div>
+
+	<div class="navgation">
+		<a href="index.html">Home</a>
+		<a href="History.html">History</a>
+		<a href="Contact.html">Contact</a>
+	</div>
+	<label for="check">
+		<i class='bx bx-menu'></i>
+		<i class='bx bx-x'></i>
+	</label>
+	</header>
+</section>
+
+<main class="main-contact">
+	<form class="form-contact">
+		<label class="entry-label" for="name">Nome Completo</label>
+		<input type="entry" type="text" name="" id="name" required>
+
+		<label class="entry-label" for="email">Email</label>
+		<input type="entry" type="email" name="" id="email" required>
+
+		<label class="entry-label" for="email">Número para contato</label>
+		<input type="entry" type="tel" name="" id="phone" required>
+
+		<label class="entry-label" for="mensage">Digite sua mensagem</label>
+		<textarea class="entry" name="" id="message" cols="30" rows="10"></textarea>
+<div class="div-entry">
+	<p class="entry-label">Como prefere nosso contato?</p>
+	<label class="entry-label" for="email-choice"><input type="radio" name="contact-choice" id="email-choice">Email</label>
+
+
+    <label class="entry-label" for="phone-choice"><input type="radio" name="contact-choice" id="phone-choice">Telefone</label>
+
+    <label class="entry-label" for="whatsapp-choice" lang="en"><input type="radio" name="contact-choice" id="whatsapp-choice">Whatsapp</label>
+
+      <label class="entry-label" for="day-period">Em qual horário prefere ser atendido?</label>
+            <select class="entry" name="day-period" id="">
+                <option value="none">---Selecione aqui</option>
+                <option value="morning">Manhã</option>
+                <option value="afternoon">Tarde</option>
+                <option value="evening">Noite</option>
+            </select>
+
+            <label for="check-mailing" class="entry-label" id="checkbox">Gostaria de receber nossas novidades por email?
+                <input type="checkbox" name="" id="check-mailing"></label>
+
+            <input class="entry" type="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+</div>
+	
+		
+	</form>
+	
+</main>
+
+<footer>
+	<h3>Developed by Amanda Silva | AS</h3>
+<a href="#"><p>Copyright © 2024 Amanda Silva | AS, All rights reserved </p></a>
+</footer>
+</body>
+</html>
